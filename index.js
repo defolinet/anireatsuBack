@@ -2,7 +2,7 @@ const express = require('express')
 const {animes, allAnime} = require('./models/animes')
 const {genres, allGenres} = require('./models/genres')
 const app = express()
-const port = 3001
+const port = 3002
 
 app.get('/', (req, res) => {
     res.send("Hello world!")
