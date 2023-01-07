@@ -16,7 +16,7 @@ const animes = {
         },
         {
             name: "Атака на титанов",
-            url: "/anima/attackontitans"
+            url: "/anime/attackontitans"
         },
         {
             name: "Твоё имя",

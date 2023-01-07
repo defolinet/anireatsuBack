@@ -75,9 +75,9 @@ const animesOne = [
         }
     },
     {
-        id:3,
+        id: 3,
         name: "Атака на титанов", 
-        url: "/anima/attackontitans",
+        url: "/anime/attackontitans",
         release: {
          day: 7,
          month: 4,
