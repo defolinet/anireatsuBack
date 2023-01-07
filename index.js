@@ -4,6 +4,8 @@ const {genres, allGenres} = require('./models/genres')
 const app = express()
 const port = 3001
 
+app.use('/images/card', express.static('images/card'))
+
 app.get('/', (req, res) => {
     res.send("Hello world!")
 })

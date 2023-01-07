@@ -1,4 +1,4 @@
-const imgCard = '../../images/card/'
+const imgCard = 'images/card/'
 const imgExtension = '.png'
 
 const animesOne = [
