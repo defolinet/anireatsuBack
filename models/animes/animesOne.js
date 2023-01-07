@@ -31,7 +31,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}naruto${imgExtension}`
-        }
+        },
+        rating: 92,
+        age: 16
     },
     {
         id: 2,
@@ -72,7 +74,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}magic_battle${imgExtension}`
-        }
+        },
+        rating: 94,
+        age: 18
     },
     {
         id:3,
@@ -103,7 +107,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}attack_on_titan${imgExtension}`
-        }
+        },
+        rating: 95,
+        age: 18
     },
     {
         id: 4,
@@ -136,7 +142,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}your_name${imgExtension}`
-        }
+        },
+        rating: 93,
+        age: 16
     }, 
     {
         id:5,
@@ -177,7 +185,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}bleach${imgExtension}`
-        }
+        },
+        rating: 94,
+        age: 16
     },
     {
         id:6,
@@ -213,7 +223,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}tokyo_revengers${imgExtension}`
-        }  
+        },
+        rating: 89,
+        age: 16  
     },
     {
         id:7,
@@ -247,7 +259,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}chainsawman${imgExtension}`
-        }
+        },
+        rating: 95,
+        age: 18
     },
     {
         id:8,
@@ -291,7 +305,9 @@ const animesOne = [
             images: {
                 card: `${imgCard}one_peace${imgExtension}`
             }
-        }
+        },
+        rating: 95,
+        age: 18
     },
     {
         id: 9,
@@ -329,7 +345,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}haikyy${imgExtension}`
-        }       
+        },
+        rating: 94,
+        age: 16       
     },
     {
         id: 10,
@@ -364,11 +382,13 @@ const animesOne = [
         },  
         images: {
             card: `${imgCard}this_pig${imgExtension}`
-        }
+        },
+        rating: 93,
+        age: 16
     },
     {
         id: 11,
-        name: "Моя девушка не только милая все серии",
+        name: "Моя девушка не только милая ",
         url: "/anime/shiki-san",
         release: {
             day: 10,
@@ -395,7 +415,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}my_girl${imgExtension}`
-        }
+        },
+        rating: 77,
+        age: 16
     },
     {
         id: 12,
@@ -434,7 +456,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}dragonball${imgExtension}`
-        }
+        },
+        rating: 91,
+        age: 16
     },
     {
         id: 13,
@@ -460,7 +484,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}death_note${imgExtension}`
-        }
+        },
+        rating: 92,
+        age: 18
     },
     {
         id: 14,
@@ -494,7 +520,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}one_puch_man${imgExtension}`
-        }
+        },
+        rating: 95,
+        age: 18
     },
     {
         id: 15,
@@ -524,7 +552,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}i_shave${imgExtension}`
-        }
+        },
+        rating: 85,
+        age: 18
     },
     {
         id: 16,
@@ -554,7 +584,9 @@ const animesOne = [
         },
         images: {
             card: `${imgCard}baki${imgExtension}`
-        }
+        },
+        rating: 88,
+        age: 16
     },
 ]
 
