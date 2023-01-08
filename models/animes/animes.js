@@ -2,6 +2,7 @@ const animesOne = require('./animesOne')
 const animesThree = require('./animesThree')
 const animesTwo = require('./animesTwo')
 const animesFour = require('./animesFour')
+const animesFive = require('./animesFive')
 
 const animes = {
     count: 100,
@@ -242,6 +243,7 @@ const allAnime = [
     ...animesTwo,
     ...animesThree,
     ...animesFour,
+    ...animesFive,
 ]
 
 module.exports = {
