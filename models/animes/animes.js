@@ -47,7 +47,7 @@ const animes = {
             url: "/anime/seishun-buta"
         },
         {
-            name: "Моя девушка не только милая все серии",
+            name: "Моя девушка не только милая",
             url: "/anime/shiki-san"
         },
         {

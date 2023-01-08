@@ -95,7 +95,9 @@ const animesFour = [
         }
     },
     {
-   
+        text: 'ededededed',
+        rule: false,
+        textTwo: 'just test'
     }
 ]
 
