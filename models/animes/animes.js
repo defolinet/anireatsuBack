@@ -193,6 +193,46 @@ const animes = {
         {
             name: "Демоны старшый школы", 
             url: "/anime/older",
+        },
+        {
+            name: "Девушка напрокат", 
+            url: "/anime/for-rent",
+        },
+        {
+            name: "Класс превосходства", 
+            url: "/anime/superiority",
+        },
+        {
+            name: "Рейтинг короля ", 
+            url: "/anime/king",
+        },
+        {
+            name: "ДжоДжо", 
+            url: "/anime/jojo",
+        },
+        {
+            name: "Пламенная бригада пожарных ", 
+            url: "/anime/fiery",
+        },
+        {
+            name: "Реинкарнация безработного", 
+            url: "/anime/reincarnation",
+        },
+        {
+            name: "Эта фарфоровая кукла влюбилась", 
+            url: "/anime/doll",
+        },
+        {
+            name: "К-он!", 
+            url: "/anime/K-he!",
+        },
+        {
+            name: "Вольный стиль!", 
+            url: "/anime/style",
+        },
+        {
+            name: "Первый шаг", 
+            url: "/anime/step",
         }
     ],
 }
