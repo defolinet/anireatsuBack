@@ -5,7 +5,6 @@ const animesFour = require('./animesFour')
 const animesFive = require('./animesFive')
 
 const animes = {
-    count: 100,
     result: [
         {
             name: 'Наруто',
@@ -17,7 +16,7 @@ const animes = {
         },
         {
             name: "Атака на титанов",
-            url: "/anima/attackontitans"
+            url: "/anime/attackontitans"
         },
         {
             name: "Твоё имя",
@@ -48,7 +47,7 @@ const animes = {
             url: "/anime/seishun-buta"
         },
         {
-            name: "Моя девушка не только милая все серии",
+            name: "Моя девушка не только милая",
             url: "/anime/shiki-san"
         },
         {
