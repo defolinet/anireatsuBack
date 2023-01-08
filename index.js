@@ -13,10 +13,16 @@ app.get('/', (req, res) => {
 app.get('/anime', (req, res) => {
     let offset = +req.query.offset || 0
     let limit = +req.query.limit || 16
+    let searched = req.query.search ? 
+            animes.result.filter(e => e.name.toLowerCase().includes(req.query.search.toLowerCase()))
+        :
+            [...animes.result]
+
     let animesSend = {
         ...animes, 
+        count: searched.length,
         next: `/anime?offset=${offset + limit}&limit=${limit}`,
-        result: [...animes.result.filter((e, key) => key >= offset && key < (offset + limit))]
+        result: searched.filter((e, key) => key >= offset && key < (offset + limit))
     }
     if(offset >= limit){
         animesSend.previous = `/anime?offset=${offset - limit}&limit=${limit}`

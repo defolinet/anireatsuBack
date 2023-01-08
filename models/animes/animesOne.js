@@ -588,10 +588,6 @@ const animesOne = [
         rating: 88,
         age: 16
     },
-    {
-        text: 'eded',
-        pdws: 'ed'
-    }
 ]
 
 module.exports = animesOne

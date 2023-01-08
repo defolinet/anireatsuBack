@@ -4,7 +4,6 @@ const animesTwo = require('./animesTwo')
 const animesFour = require('./animesFour')
 
 const animes = {
-    count: 100,
     result: [
         {
             name: 'Наруто',
