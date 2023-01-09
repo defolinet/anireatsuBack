@@ -449,7 +449,7 @@ const animesFour = [
     {
         id: 64,
         name: "Девчонка не промах", 
-        url: "/anime/girl ",
+        url: "/anime/girl",
         release: {
             day: 13,
             month: 7,
