@@ -110,6 +110,18 @@ const animes = {
             url: "/anime/insane",
         },
         {
+            name: "Кланнад", 
+            url: "/anime/clannad",
+        },
+        {
+            name: "Семья шпинонов", 
+            url: "/anime/spy-femily",
+        },
+        {
+            name: "Берсерк", 
+            url: "/anime/berserk",
+        },
+        {
             name: "Моя геройская акедемия", 
             url: "/anime/my-academy",
         },
