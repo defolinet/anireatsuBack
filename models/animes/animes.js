@@ -2,6 +2,7 @@ const animesOne = require('./animesOne')
 const animesThree = require('./animesThree')
 const animesTwo = require('./animesTwo')
 const animesFour = require('./animesFour')
+const animesFive = require('./animesFive')
 
 const animes = {
     result: [
@@ -108,6 +109,18 @@ const animes = {
         {
             name: "Безумный азарт", 
             url: "/anime/insane",
+        },
+        {
+            name: "Кланнад", 
+            url: "/anime/clannad",
+        },
+        {
+            name: "Семья шпинонов", 
+            url: "/anime/spy-femily",
+        },
+        {
+            name: "Берсерк", 
+            url: "/anime/berserk",
         },
         {
             name: "Моя геройская акедемия", 
@@ -232,6 +245,22 @@ const animes = {
         {
             name: "Первый шаг", 
             url: "/anime/step",
+        },
+        {
+            name: "Инициал Ди", 
+            url: "/anime/initial",
+        },
+        {
+            name: "Намбака ", 
+            url: "/anime/nambaka",
+        },
+        {
+            name: " Персона 5", 
+            url: "/anime/person",
+        },
+        {
+            name: "Девчонка не промах", 
+            url: "/anime/girl ",
         }
     ],
 }
@@ -241,6 +270,7 @@ const allAnime = [
     ...animesTwo,
     ...animesThree,
     ...animesFour,
+    ...animesFive,
 ]
 
 module.exports = {
