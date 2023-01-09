@@ -3,6 +3,7 @@ const animesThree = require('./animesThree')
 const animesTwo = require('./animesTwo')
 const animesFour = require('./animesFour')
 const animesFive = require('./animesFive')
+const animesSix = require('./animesSix')
 
 const animes = {
     result: [
@@ -261,9 +262,75 @@ const animes = {
         {
             name: "Девчонка не промах", 
             url: "/anime/girl ",
-        }
+        },
+        {
+            name: "Триплексоголик", 
+            url: "/anime/triplexaholic",
+        },
+        {
+            name: "Монстр за соседней партой ", 
+            url: "/anime/monster",
+        },
+        {
+            name: "Царство", 
+            url: "/anime/kingdom",
+        },
+        {
+            name: "Вторжение Кальмарки", 
+            url: "/anime/invasion",
+        },
+        {
+            name: "Космические братья", 
+            url: "/anime/brothers",
+        },
+        {
+            name: "Сёстры Минами", 
+            url: "/anime/sisters",
+        },
+        {
+            name: "Моя богиня!", 
+            url: "/anime/goddess",
+        },
+        {
+            name: "Танец мечей ", 
+            url: "/anime/swords",
+        },
+        {
+            name: "Симфогир: Песнь боевых принцесс", 
+            url: "/anime/Princesses",
+        },
+        {
+            name: "Замахнись сильнее", 
+            url: "/anime/harder",
+        },
+        {
+            name: "Мэйджор", 
+            url: "/anime/meidjor",
+        },
+        {
+            name: "Городской охотник", 
+            url: "/anime/Hunter",
+        },
+        {
+            name: " Игра с нулевым", 
+            url: "/anime/game"
+        },
+        {
+            name: "Ангел кровопролития", 
+            url: "/anime/satsuriku",
+        },
+        {
+            name: "Войны Сакуры", 
+            url: "/anime/sakura",
+        },
+        {
+            name: "Повесть о соседях", 
+            url: "/anime/neighbors",
+        },
     ],
 }
+
+console.log(animes.result.length)
 
 const allAnime = [
     ...animesOne,
@@ -271,6 +338,7 @@ const allAnime = [
     ...animesThree,
     ...animesFour,
     ...animesFive,
+    ...animesSix,
 ]
 
 module.exports = {
