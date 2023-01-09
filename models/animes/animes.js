@@ -265,6 +265,7 @@ const animes = {
     ],
 }
 
+
 const allAnime = [
     ...animesOne,
     ...animesTwo,
