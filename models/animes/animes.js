@@ -111,6 +111,18 @@ const animes = {
             url: "/anime/insane",
         },
         {
+            name: "Кланнад", 
+            url: "/anime/clannad",
+        },
+        {
+            name: "Семья шпинонов", 
+            url: "/anime/spy-femily",
+        },
+        {
+            name: "Берсерк", 
+            url: "/anime/berserk",
+        },
+        {
             name: "Моя геройская акедемия", 
             url: "/anime/my-academy",
         },
@@ -233,6 +245,22 @@ const animes = {
         {
             name: "Первый шаг", 
             url: "/anime/step",
+        },
+        {
+            name: "Инициал Ди", 
+            url: "/anime/initial",
+        },
+        {
+            name: "Намбака ", 
+            url: "/anime/nambaka",
+        },
+        {
+            name: " Персона 5", 
+            url: "/anime/person",
+        },
+        {
+            name: "Девчонка не промах", 
+            url: "/anime/girl ",
         }
     ],
 }
