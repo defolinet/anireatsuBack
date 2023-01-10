@@ -327,10 +327,72 @@ const animes = {
             name: "Повесть о соседях", 
             url: "/anime/neighbors",
         },
+        {
+            name: "Ликорис Рикойл", 
+            url: "/anime/Ricoil",
+        },
+        {
+            name: "Магазинчик ужасов", 
+            url: "/anime/Horror",
+        },
+        {
+            name: "Взор ужаса",
+            url: "/anime/gaze",
+        },
+        {
+            name: "Клетка с насекомыми Араньи ", 
+            url: "/anime/insects",
+        },
+        {
+            name: "Дорохедоро ", 
+            url: "/anime/Dorohedoro",
+        },
+        {
+            name: "7 семян", 
+            url: "/anime/seeds",
+        },
+        {
+            name: "Волшебница Мадока Магика", 
+            url: "/anime/Enchantress",
+        },
+        {
+            name: "Онипан", 
+            url: "/anime/onipan",
+        },
+        {
+            name: "Клеймор", 
+            url: "/anime/cleimor",
+        },
+        {
+            name: "Ди Грэй-мен", 
+            url: "/anime/me",
+        },
+        {
+            name: "Синий экзорцист", 
+            url: "/anime/sinii-ekzorcist",
+        },
+        {
+            name: "Повседневная жизнь бессмертного короля", 
+            url: "/anime/king",
+        },
+        {
+            name: "Тетрадь дружбы Нацумэ ", 
+            url: "/anime/tetrad-druzhby",
+        },
+        {
+            name: "Первый шаг", 
+            url: "/anime/hajime",
+        },
+        {
+            name: "Связь сердец", 
+            url: "/anime/svyaz-serdec",
+        },
+        {
+            name: "Ходячий замок", 
+            url: "/anime/zamok",
+        },
     ],
 }
-
-console.log(animes.result.length)
 
 const allAnime = [
     ...animesOne,
