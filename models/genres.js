@@ -39,7 +39,7 @@ const genres = {
         },
         {
             name: "приключение",
-            url: "/genres/romance"
+            url: "/genres/adventure"
         }
     ]
 }
@@ -95,7 +95,7 @@ const allGenres = [
     {
         id: 10,
         name: "приключение",
-        url: "/genres/romance"
+        url: "/genres/adventure"
     }
 ]
 
