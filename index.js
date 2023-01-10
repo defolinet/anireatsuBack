@@ -21,7 +21,14 @@ app.get('/anime', (req, res) => {
     let animesSend = {
         ...animes, 
         count: searched.length,
-        next: `/anime?offset=${offset + limit}&limit=${limit}`,
+        oldest: allAnime.reduce((prev, e) => {
+            if(e.release.year < prev.release.year) return e
+            else return prev
+        }),
+        newest: allAnime.reduce((prev, e) => {
+            if(e.release.year > prev.release.year) return e
+            else return prev
+        }),
         result: searched.filter((e, key) => key >= offset && key < (offset + limit))
     }
     if(offset >= limit){
@@ -29,8 +36,6 @@ app.get('/anime', (req, res) => {
     }
     res.send(animesSend)
 })
-
-console.log(allAnime.filter(e => e.genres.some(el => el.name === 'приключение')).length);
 
 app.get('/anime/:selector', (req, res) => {
     let selector = req.params.selector
