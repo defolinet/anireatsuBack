@@ -24,7 +24,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 5.1,
+        rating: 5.1,
         restriction: 18,
     },
     {
@@ -61,7 +61,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.3,
+        rating: 7.3,
         restriction: 16,
     },
     {
@@ -101,7 +101,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 6.4,
+        rating: 6.4,
         restriction: 18,
     },
     {
@@ -134,7 +134,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.2,
+        rating: 8.2,
         restriction: 16,
     },
     {
@@ -171,7 +171,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.8,
+        rating: 7.8,
         restriction: 16
 
     },
@@ -204,7 +204,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.7,
+        rating: 7.7,
         restriction: 16,
     },
     {
@@ -241,7 +241,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.1,
+        rating: 8.1,
         restriction: 16,
     },
     {
@@ -283,7 +283,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 5.9,
+        rating: 5.9,
         restriction: 18,
     },
     {
@@ -321,7 +321,7 @@ const animesThree = [
         texts: {
             plot: "Типичный ученик Тайдзю Оки говорит своему любящему науку другу Сэнку, что он наконец собирается признаться Юдзурихе Огава, в которую он тайно влюблен в течение пяти лет. Встречаясь под деревом на школьной территории, внезапно небо заполнил странный яркий свет. Тайдзю толкает Юдзуриху к дереву, чтобы защитить ее, но свет внезапно окутывает все человечество и каждый человек на Земле превращается в камень. Проходит много тысячелетий и Оки выбирается из каменного плена и начинает исследовать окрестности. Тайдзю находит дерево где вырезано сообщение, которое приводит его к Сэнку, который тоже смог выбраться из каменного плена. Им предстоит выяснить, что это был за свет и почему все люди окаменели." 
         },
-        raiting: 8.2,
+        rating: 8.2,
         restriction: 16,
     },
     {
@@ -358,7 +358,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 18,
     },
     {
@@ -395,7 +395,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.3,
+        rating: 8.3,
         restriction: 16,
     },
     {
@@ -432,7 +432,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.2,
+        rating: 8.2,
         restriction: 16,
     },
     {
@@ -469,7 +469,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.9,
+        rating: 7.9,
         restriction: 18,
     },
     {
@@ -507,7 +507,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 7.8,
+        rating: 7.8,
         restriction: 18
     },
     {
@@ -544,7 +544,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.6,
+        rating: 8.6,
         restriction: 18,
     },
     {
@@ -577,7 +577,7 @@ const animesThree = [
         images:{
 
         },
-        raiting: 8.5,
+        rating: 8.5,
         restriction: 18,
     },
 ]

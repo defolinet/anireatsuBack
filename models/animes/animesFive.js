@@ -32,7 +32,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 8.0,
+        rating: 8.0,
         restriction: 16,
      },
      {
@@ -65,7 +65,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.0,
+        rating: 7.0,
         restriction: 16,
      },
      {
@@ -94,7 +94,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.6,
+        rating: 7.6,
         restriction: 18,
      },
      {
@@ -123,7 +123,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 6.5,
+        rating: 6.5,
         restriction: 16,
      },
      {
@@ -156,7 +156,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.4,
+        rating: 7.4,
         restriction: 16,
      },
      {
@@ -189,7 +189,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.0,
+        rating: 7.0,
         restriction: 16,
      },
      {
@@ -222,7 +222,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 6.7,
+        rating: 6.7,
         restriction: 16,
      },
      {
@@ -255,7 +255,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 16,
      },
      {
@@ -288,7 +288,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 5.9,
+        rating: 5.9,
         restriction: 16
      },
      {
@@ -321,7 +321,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.6,
+        rating: 7.6,
         restriction: 16,
      },
      {
@@ -358,7 +358,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 16,
      },
      {
@@ -391,7 +391,7 @@ const animesFive = [
         images:{
 
         },
-        raiting:  7.9,
+        rating:  7.9,
         restriction: 16
      },
      {
@@ -420,7 +420,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 18
      },
      {
@@ -449,7 +449,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 6.1,
+        rating: 6.1,
         restriction: 18
      },
      {
@@ -482,7 +482,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.0,
+        rating: 7.0,
         restriction: 16
      },
      {
@@ -519,7 +519,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 6.,
+        rating: 6.,
         restriction: 16
      }
 ]

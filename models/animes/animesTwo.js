@@ -28,7 +28,7 @@ const animesTwo = [
             images: {
 
             },
-            raiting: 7.2,
+            rating: 7.2,
             restriction: 18,
 
     },
@@ -57,7 +57,7 @@ const animesTwo = [
             images:{
 
             },
-            raiting: 9.5,
+            rating: 9.5,
             restriction: 18,
     },
     {
@@ -98,7 +98,7 @@ const animesTwo = [
         images: {
 
         },
-        raiting: 8.6,
+        rating: 8.6,
         restriction: 16,
     },
     {
@@ -138,7 +138,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 8.1,
+        rating: 8.1,
         restriction: 12,
     },
     {
@@ -178,7 +178,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.7,
+        rating: 7.7,
         restriction: 16,
     },
     {
@@ -215,7 +215,10 @@ const animesTwo = [
         texts: {
             plot: "История данного аниме пойдет про класс 3-H, в котором классный руководитель является каким-то монстром неизвестного происхождения. И министерство обороны, поручает задание всем ученикам этого класса, избавиться это чудовище, ведь оно хочется в ближайшее время устроить апокалипсис и уничтожить все живое на планете Земля. Каждый день для ребят большее испытание, ведь они пользуюсь неисчерпаемыми запасами оружия, все время нападают на своего учителя, но тот всегда на стороже. С каждым днем их боевой дух падает все ниже и ниже, а монстр просто продолжает преподавать им предметы, выполнять свои обязанности как учитель и направлять детей к их светлому будущему. Со временем ученикам он начинает все больше нравиться, ведь другие педагоги просто отказываются от них, не воспринимая их всерьез. И теперь детям нужно сделать пожалуй самый главный их выбор, спасти весь мир или уговорить учителями не делать этого." 
         },
-        raiting: 7.4,
+        images:{
+
+        },
+        rating: 7.4,
         restriction: 12,
     },
     {
@@ -256,7 +259,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.9,
+        rating: 7.9,
         restriction: 16,
     },
     {
@@ -284,7 +287,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 8.0,
+        rating: 8.0,
         restriction: 18,
     },
     {
@@ -319,7 +322,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.4 ,
+        rating: 7.4 ,
         restriction: 18,
     },
     {
@@ -347,7 +350,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.0,
+        rating: 7.0,
         restriction: 18,
     },
     {
@@ -384,7 +387,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.9,
+        rating: 7.9,
         restriction: 16,
     },
     {
@@ -416,7 +419,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 8.1,
+        rating: 8.1,
         restriction: 16,
     },
     {
@@ -453,7 +456,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 8.6,
+        rating: 8.6,
         restriction: 18,
     },
     {
@@ -494,7 +497,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 16,
     },
     {
@@ -530,7 +533,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.6,
+        rating: 7.6,
         restriction: 18,
     },
     {
@@ -558,7 +561,7 @@ const animesTwo = [
         images:{
 
         },
-        raiting: 7.8,
+        rating: 7.8,
         restriction: 16,
     },
 ]

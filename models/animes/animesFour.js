@@ -519,7 +519,7 @@ const animesFour = [
         images:{
 
         },
-        raiting: 6.6,
+        rating: 6.6,
         restriction: 18,
     },
     {
@@ -552,7 +552,7 @@ const animesFour = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 16,
     }
 ]

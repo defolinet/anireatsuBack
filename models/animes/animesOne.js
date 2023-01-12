@@ -32,7 +32,7 @@ const animesOne = [
         images: {
             card: `${imgCard}naruto${imgExtension}`
         },
-        rating: 92,
+        raing: 92,
         age: 16
     },
     {
