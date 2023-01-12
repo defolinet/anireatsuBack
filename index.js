@@ -4,7 +4,7 @@ const {genres, allGenres} = require('./models/genres')
 const app = express()
 const port = 3001
 
-app.use('/images/card', express.static('images/card'))
+app.use('/images', express.static('images'))
 
 app.get('/', (req, res) => {
     res.send("Hello world!")
@@ -24,11 +24,11 @@ app.get('/anime', (req, res) => {
         oldest: allAnime.reduce((prev, e) => {
             if(e.release.year < prev.release.year) return e
             else return prev
-        }),
+        }).release.year,
         newest: allAnime.reduce((prev, e) => {
             if(e.release.year > prev.release.year) return e
             else return prev
-        }),
+        }).release.year,
         result: searched.filter((e, key) => key >= offset && key < (offset + limit))
     }
     if(offset >= limit){

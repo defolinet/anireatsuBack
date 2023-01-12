@@ -321,7 +321,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.6,
+        rating: 7.6,
         restriction: 16,
      },
      {
@@ -358,7 +358,7 @@ const animesFive = [
         images:{
 
         },
-        raiting: 7.5,
+        rating: 7.5,
         restriction: 16,
      },
      {
