@@ -23,8 +23,6 @@ allAnime.forEach(anime => animes.result.push({
     url: anime.url
 }))
 
-console.log(animes);
-
 module.exports = {
     animes,
     allAnime,
