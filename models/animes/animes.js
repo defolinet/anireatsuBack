@@ -4,6 +4,7 @@ const animesTwo = require('./animesTwo')
 const animesFour = require('./animesFour')
 const animesFive = require('./animesFive')
 const animesSix = require('./animesSix')
+const animesSeven = require('./animesSeven')
 
 const allAnime = [
     ...animesOne,
@@ -12,6 +13,7 @@ const allAnime = [
     ...animesFour,
     ...animesFive,
     ...animesSix,
+    ...animesSeven
 ]
 
 const animes = {result: []}
