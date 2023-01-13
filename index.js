@@ -13,14 +13,24 @@ app.get('/', (req, res) => {
 app.get('/anime', (req, res) => {
     let offset = +req.query.offset || 0
     let limit = +req.query.limit || 16
-    let searched = req.query.search ? 
-            animes.result.filter(e => e.name.toLowerCase().includes(req.query.search.toLowerCase()))
-        :
-            [...animes.result]
+    let customized = [...animes.result]
+
+    if(req.query.search) {
+        customized = customized.filter(e => e.name.toLowerCase().includes(req.query.search.toLowerCase()))
+    }
+
+    if(req.query.genres) {
+        const sGenres = req.query.genres.split(' ')
+        customized = customized.filter(e => e.genres.some(genr => sGenres.includes(genr.name)))
+    }
+
+    if(req.query.sort === 'rating') {
+        
+    }
 
     let animesSend = {
         ...animes, 
-        count: searched.length,
+        count: customized.length,
         oldest: allAnime.reduce((prev, e) => {
             if(e.release.year < prev.release.year) return e
             else return prev
@@ -29,7 +39,7 @@ app.get('/anime', (req, res) => {
             if(e.release.year > prev.release.year) return e
             else return prev
         }).release.year,
-        result: searched.filter((e, key) => key >= offset && key < (offset + limit))
+        result: customized.filter((e, key) => key >= offset && key < (offset + limit))
     }
     if(offset >= limit){
         animesSend.previous = `/anime?offset=${offset - limit}&limit=${limit}`
