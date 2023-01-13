@@ -1,3 +1,19 @@
+function getCard (name) {
+    return `images/${name}/card.jpg`
+}
+
+function getBanner (name) {
+    return `images/${name}/banner.jpg`
+}
+
+function getMinor (name) {
+    let minor = []
+    for(let i = 1; i <= 5; i++){
+        minor.push(`images/${name}/minor/photo${i}.jpg`)
+    }
+    return minor
+}
+
 const animesThree = [
     {
         id: 33,
@@ -433,7 +449,7 @@ const animesThree = [
             year: 2016,
         },
         seasons: false,
-        series: false,
+        series: 1,
         isComing: false,
         movies: 1,
         genres: [

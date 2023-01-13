@@ -1,6 +1,22 @@
 const imgCard = '../../images/card/'
 const imgExtension = '.png'
 
+function getCard (name) {
+    return `images/${name}/card.jpg`
+}
+
+function getBanner (name) {
+    return `images/${name}/banner.jpg`
+}
+
+function getMinor (name) {
+    let minor = []
+    for(let i = 1; i <= 5; i++){
+        minor.push(`images/${name}/minor/photo${i}.jpg`)
+    }
+    return minor
+}
+
 const animesFive = [
     {
         id: 65,
@@ -551,7 +567,7 @@ const animesFive = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        rating: 6.,
+        rating: 6.0,
         restriction: 16
      }
 ]

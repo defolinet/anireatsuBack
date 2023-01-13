@@ -50,7 +50,7 @@ const animesOne = [
             banner: getBanner('naruto'),
             minor: getMinor('naruto')
         },
-        raing: 92,
+        rating: 9.2,
         age: 16
     },
     {
@@ -95,7 +95,7 @@ const animesOne = [
             banner: getBanner('jujutsu_kaisen'),
             minor: getMinor('jujutsu_kaisen')
         },
-        rating: 94,
+        rating: 9.4,
         age: 18
     },
     {
@@ -130,7 +130,7 @@ const animesOne = [
             banner: getBanner('attack_on_titan'),
             minor: getMinor('attack_on_titan')
         },
-        rating: 95,
+        rating: 9.5,
         age: 18
     },
     {
@@ -142,6 +142,7 @@ const animesOne = [
             month: 8,
             year: 2016,
         },
+        series: 1,
         isComing: false, 
         movies: 1,
         genres: [
@@ -167,7 +168,7 @@ const animesOne = [
             banner: getBanner('your_name'),
             minor: getMinor('your_name')
         },
-        rating: 93,
+        rating: 9.3,
         age: 16
     }, 
     {
@@ -212,7 +213,7 @@ const animesOne = [
             banner: getBanner('bleach'),
             minor: getMinor('bleach')
         },
-        rating: 94,
+        rating: 9.4,
         age: 16
     },
     {
@@ -252,7 +253,7 @@ const animesOne = [
             banner: getBanner('tokyo_ravangers'),
             minor: getMinor('tokyo_ravangers')
         },
-        rating: 89,
+        rating: 8.9,
         age: 16  
     },
     {
@@ -290,7 +291,7 @@ const animesOne = [
             banner: getBanner('chainsawman'),
             minor: getMinor('chainsawman')
         },
-        rating: 95,
+        rating: 9.5,
         age: 18
     },
     {
@@ -338,7 +339,7 @@ const animesOne = [
             banner: getBanner('one_piece'),
             minor: getMinor('one_piece')
         },
-        rating: 95,
+        rating: 9.5,
         age: 18
     },
     {
@@ -380,7 +381,7 @@ const animesOne = [
             banner: getBanner('haikyu'),
             minor: getMinor('haikyu')
         },
-        rating: 94,
+        rating: 9.4,
         age: 16       
     },
     {
@@ -419,7 +420,7 @@ const animesOne = [
             banner: getBanner('this_pig'),
             minor: getMinor('this_pig')
         },
-        rating: 93,
+        rating: 9.3,
         age: 16
     },
     {
@@ -454,7 +455,7 @@ const animesOne = [
             banner: getBanner('my_girlfriend_ is_ not_ only_ cute'),
             minor: getMinor('my_girlfriend_ is_ not_ only_ cute')
         },
-        rating: 77,
+        rating: 7.7,
         age: 16
     },
     {
@@ -497,7 +498,7 @@ const animesOne = [
             banner: getBanner('dragonball'),
             minor: getMinor('dragonball')
         },
-        rating: 91,
+        rating: 9.1,
         age: 16
     },
     {
@@ -527,7 +528,7 @@ const animesOne = [
             banner: getBanner('death_note'),
             minor: getMinor('death_note')
         },
-        rating: 92,
+        rating: 9.2,
         age: 18
     },
     {
@@ -565,7 +566,7 @@ const animesOne = [
             banner: getBanner('onepunchman'),
             minor: getMinor('onepunchman')
         },
-        rating: 95,
+        rating: 9.5,
         age: 18
     },
     {
@@ -599,7 +600,7 @@ const animesOne = [
             banner: getBanner('i_shaved'),
             minor: getMinor('i_shaved')
         },
-        rating: 85,
+        rating: 8.5,
         age: 18
     },
     {
@@ -633,7 +634,7 @@ const animesOne = [
             banner: getBanner('baki'),
             minor: getMinor('baki')
         },
-        rating: 88,
+        rating: 8.8,
         age: 16
     },
 ]

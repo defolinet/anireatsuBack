@@ -25,8 +25,40 @@ app.get('/anime', (req, res) => {
     }
 
     if(req.query.sort === 'rating') {
-        
+        customized = customized.sort((a, b) => {
+            let changedA = String(a.rating)[0] + String(a.rating).slice(2)
+            let changedB = String(b.rating)[0] + String(b.rating).slice(2) 
+            if(changedA > changedB) {
+                return req.query.ascending === 'false' ? 1 : -1
+            } else if(changedB > changedA) {
+                return req.query.ascending === 'false' ? -1 : 1
+            } else {
+                return 0
+            }
+        })
+    } else if(req.query.sort === 'date') {
+        customized = customized.sort((a, b) => {
+            if(a.release.year > b.release.year) {
+                return req.query.ascending === 'false' ? 1 : -1
+            } else if(b.release.year > a.release.year) {
+                return req.query.ascending === 'false' ? -1 : 1
+            } else {
+                return 0
+            }
+        })
+    } else if(req.query.sort === 'series') {
+        customized = customized.sort((a, b) => {
+            if(a.series > b.series) {
+                return req.query.ascending === 'false' ? 1 : -1
+            } else if(b.series > a.series) {
+                return req.query.ascending === 'false' ? -1 : 1
+            } else {
+                return 0
+            }
+        })
     }
+
+    console.log(customized);
 
     let animesSend = {
         ...animes, 

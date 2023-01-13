@@ -1,3 +1,19 @@
+function getCard (name) {
+    return `images/${name}/card.jpg`
+}
+
+function getBanner (name) {
+    return `images/${name}/banner.jpg`
+}
+
+function getMinor (name) {
+    let minor = []
+    for(let i = 1; i <= 5; i++){
+        minor.push(`images/${name}/minor/photo${i}.jpg`)
+    }
+    return minor
+}
+
 const animesFour = [
     {
         id: 49,
@@ -26,7 +42,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 8.1,
+        rating: 8.1,
         restriction: 16,
     },
     {
@@ -77,7 +93,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 7.0,
+        rating: 7.0,
         restriction: 18,
     },
     {
@@ -112,7 +128,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting:  8.1,
+        rating:  8.1,
         restriction: 16,
     },
     {
@@ -151,7 +167,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.0,
+        rating: 9.0,
         restriction: 16,
     },
     {
@@ -186,7 +202,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.1,
+        rating: 9.1,
         restriction: 16,
     },
     {
@@ -229,7 +245,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.1,
+        rating: 9.1,
         restriction: 18,
     },
     {
@@ -268,7 +284,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.1, 
+        rating: 9.1, 
         restriction: 18,
     },
     {
@@ -303,7 +319,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.5,
+        rating: 9.5,
         restriction: 18,
     },
     {
@@ -334,7 +350,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 8.5,
+        rating: 8.5,
         restriction: 18
     },
     {
@@ -369,7 +385,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 9.0,
+        rating: 9.0,
         restriction: 16
     },
     {
@@ -404,7 +420,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 8.5,
+        rating: 8.5,
         restriction: 16
     },
     {
@@ -439,7 +455,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 8.4,
+        rating: 8.4,
         restriction: 16,
     },
     {
@@ -474,7 +490,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 8.6,
+        rating: 8.6,
         restriction: 16,
     },
     {
@@ -513,7 +529,7 @@ const animesFour = [
             banner: getBanner(''),
             minor: getMinor('')
         },
-        raiting: 6.9,
+        rating: 6.9,
         restriction: 16,
 
     },

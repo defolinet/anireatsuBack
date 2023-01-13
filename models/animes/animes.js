@@ -21,7 +21,10 @@ const animes = {result: []}
 allAnime.forEach(anime => animes.result.push({
     name: anime.name,
     url: anime.url,
-    genres: anime.genres
+    genres: anime.genres,
+    rating: anime.rating,
+    release: anime.release,
+    series: anime.series
 }))
 
 module.exports = {
