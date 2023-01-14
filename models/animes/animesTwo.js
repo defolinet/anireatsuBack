@@ -43,8 +43,8 @@ const animesTwo = [
             },   
             images: {
                 card: getCard('tokyo_choul'),
-            banner: getBanner('tokyo_choul'),
-            minor: getMinor('tokyo_choul')
+                banner: getBanner('tokyo_choul'),
+                minor: getMinor('tokyo_choul')
             },
             rating: 7.2,
             restriction: 18,

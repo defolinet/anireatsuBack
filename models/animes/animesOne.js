@@ -51,7 +51,7 @@ const animesOne = [
             minor: getMinor('naruto')
         },
         rating: 9.2,
-        age: 16
+        restriction: 16
     },
     {
         id: 2,
@@ -96,7 +96,7 @@ const animesOne = [
             minor: getMinor('jujutsu_kaisen')
         },
         rating: 9.4,
-        age: 18
+        restriction: 18
     },
     {
         id: 3,
@@ -131,7 +131,7 @@ const animesOne = [
             minor: getMinor('attack_on_titan')
         },
         rating: 9.5,
-        age: 18
+        restriction: 18
     },
     {
         id: 4,
@@ -169,7 +169,7 @@ const animesOne = [
             minor: getMinor('your_name')
         },
         rating: 9.3,
-        age: 16
+        restriction: 16
     }, 
     {
         id:5,
@@ -214,7 +214,7 @@ const animesOne = [
             minor: getMinor('bleach')
         },
         rating: 9.4,
-        age: 16
+        restriction: 16
     },
     {
         id:6,
@@ -254,7 +254,7 @@ const animesOne = [
             minor: getMinor('tokyo_ravangers')
         },
         rating: 8.9,
-        age: 16  
+        restriction: 16  
     },
     {
         id:7,
@@ -292,7 +292,7 @@ const animesOne = [
             minor: getMinor('chainsawman')
         },
         rating: 9.5,
-        age: 18
+        restriction: 18
     },
     {
         id:8,
@@ -382,7 +382,7 @@ const animesOne = [
             minor: getMinor('haikyu')
         },
         rating: 9.4,
-        age: 16       
+        restriction: 16       
     },
     {
         id: 10,
@@ -421,7 +421,7 @@ const animesOne = [
             minor: getMinor('this_pig')
         },
         rating: 9.3,
-        age: 16
+        restriction: 16
     },
     {
         id: 11,
@@ -456,7 +456,7 @@ const animesOne = [
             minor: getMinor('my_girlfriend_ is_ not_ only_ cute')
         },
         rating: 7.7,
-        age: 16
+        restriction: 16
     },
     {
         id: 12,
@@ -499,7 +499,7 @@ const animesOne = [
             minor: getMinor('dragonball')
         },
         rating: 9.1,
-        age: 16
+        restriction: 16
     },
     {
         id: 13,
@@ -529,7 +529,7 @@ const animesOne = [
             minor: getMinor('death_note')
         },
         rating: 9.2,
-        age: 18
+        restriction: 18
     },
     {
         id: 14,
@@ -567,7 +567,7 @@ const animesOne = [
             minor: getMinor('onepunchman')
         },
         rating: 9.5,
-        age: 18
+        restriction: 18
     },
     {
         id: 15,
@@ -601,7 +601,7 @@ const animesOne = [
             minor: getMinor('i_shaved')
         },
         rating: 8.5,
-        age: 18
+        restriction: 18
     },
     {
         id: 16,
@@ -635,7 +635,7 @@ const animesOne = [
             minor: getMinor('baki')
         },
         rating: 8.8,
-        age: 16
+        restriction: 16
     },
 ]
 
