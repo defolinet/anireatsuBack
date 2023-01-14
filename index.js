@@ -20,7 +20,7 @@ app.get('/anime', (req, res) => {
     }
 
     if(req.query.genres) {
-        const sGenres = req.query.genres.split(' ')
+        const sGenres = req.query.genres.split(',')
         customized = customized.filter(e => e.genres.some(genr => sGenres.includes(genr.name)))
     }
 
