@@ -28,7 +28,7 @@ const animesOne = [
             year: 2002,
         },
         seasons: 2,
-        series: 220,
+        series: 720,
         isComing: false,
         movies: 11,
         genres: [
@@ -340,7 +340,7 @@ const animesOne = [
             minor: getMinor('one_piece')
         },
         rating: 9.5,
-        age: 18
+        restriction: 18
     },
     {
         id: 9,
@@ -451,9 +451,9 @@ const animesOne = [
             plot: "Идзуми и Сикимори — типичная влюблённая парочка из старшей школы. Но когда Идзуми попадает в неприятности, Сикимори преображается в очень крутую героиню, заставляющая всех вокруг восхищаться ею."
         },
         images: {
-            card: getCard('my_girlfriend_ is_ not_ only_ cute'),
-            banner: getBanner('my_girlfriend_ is_ not_ only_ cute'),
-            minor: getMinor('my_girlfriend_ is_ not_ only_ cute')
+            card: getCard('my_girlfriend'),
+            banner: getBanner('my_girlfriend'),
+            minor: getMinor('my_girlfriend')
         },
         rating: 7.7,
         restriction: 16

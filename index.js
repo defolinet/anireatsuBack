@@ -24,14 +24,19 @@ app.get('/anime', (req, res) => {
         customized = customized.filter(e => e.genres.some(genr => sGenres.includes(genr.name)))
     }
 
+    if(req.query.date){
+        const sDate = req.query.date.split(',')
+        customized = customized.filter(e => +sDate[0] <= e.release.year && e.release.year <= +sDate[1] )
+    }
+
     if(req.query.sort === 'rating') {
         customized = customized.sort((a, b) => {
             let changedA = String(a.rating)[0] + String(a.rating).slice(2)
             let changedB = String(b.rating)[0] + String(b.rating).slice(2) 
             if(changedA > changedB) {
-                return req.query.ascending === 'false' ? 1 : -1
+                return req.query.as === 'decrease' ? 1 : -1
             } else if(changedB > changedA) {
-                return req.query.ascending === 'false' ? -1 : 1
+                return req.query.as === 'decrease' ? -1 : 1
             } else {
                 return 0
             }
@@ -39,9 +44,9 @@ app.get('/anime', (req, res) => {
     } else if(req.query.sort === 'date') {
         customized = customized.sort((a, b) => {
             if(a.release.year > b.release.year) {
-                return req.query.ascending === 'false' ? 1 : -1
+                return req.query.as === 'decrease' ? 1 : -1
             } else if(b.release.year > a.release.year) {
-                return req.query.ascending === 'false' ? -1 : 1
+                return req.query.as === 'decrease' ? -1 : 1
             } else {
                 return 0
             }
@@ -49,20 +54,28 @@ app.get('/anime', (req, res) => {
     } else if(req.query.sort === 'series') {
         customized = customized.sort((a, b) => {
             if(a.series > b.series) {
-                return req.query.ascending === 'false' ? 1 : -1
+                return req.query.as === 'decrease' ? 1 : -1
             } else if(b.series > a.series) {
-                return req.query.ascending === 'false' ? -1 : 1
+                return req.query.as === 'decrease' ? -1 : 1
             } else {
                 return 0
             }
         })
     }
 
+    let count = customized.length
+    let offseted = customized.filter((e, key) => key >= offset && key < (offset + limit))
+
+    if(offseted.length){
+        customized = offseted
+    }
+
+
     console.log(customized);
 
     let animesSend = {
         ...animes, 
-        count: customized.length,
+        count,
         oldest: allAnime.reduce((prev, e) => {
             if(e.release.year < prev.release.year) return e
             else return prev
@@ -71,7 +84,7 @@ app.get('/anime', (req, res) => {
             if(e.release.year > prev.release.year) return e
             else return prev
         }).release.year,
-        result: customized.filter((e, key) => key >= offset && key < (offset + limit))
+        result: customized
     }
     if(offset >= limit){
         animesSend.previous = `/anime?offset=${offset - limit}&limit=${limit}`
