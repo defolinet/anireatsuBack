@@ -16,7 +16,7 @@ app.get('/anime', (req, res) => {
     let customized = [...animes.result]
 
     if(req.query.search) {
-        customized = customized.filter(e => e.name.toLowerCase().includes(req.query.search.toLowerCase()))
+        customized = customized.filter(e => e.name.toLowerCase().replace(/ /g, '').includes(req.query.search))
     }
 
     if(req.query.genres) {
