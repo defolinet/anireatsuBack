@@ -137,7 +137,9 @@ allGenres.forEach(e => {
     })
 })
 
-
+app.get('/test', (req, res) => {
+    res.send('TEST!!!')
+})
 
 const start = async () => {
     try {
