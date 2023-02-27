@@ -141,6 +141,7 @@ app.get('/test', (req, res) => {
     res.send('TEST!!!')
 })
 
+mongoose.set('strictQuery', false)
 const start = async () => {
     try {
         await mongoose.connect(process.env.DB_URL || 'mongodb+srv://anireatsu:anireatsu123@cluster0.gfiskyo.mongodb.net/?retryWrites=true&w=majority', {
