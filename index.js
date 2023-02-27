@@ -1,14 +1,30 @@
+require('dotenv').config()
 const express = require('express')
 const {animes, allAnime} = require('./models/animes/animes')
 const {genres, allGenres} = require('./models/genres')
 const app = express()
-const port = 3001
+const PORT = process.env.PORT || 3001;
+const cors = require('cors');
+const cookieParser = require('cookie-parser')
+const mongoose = require('mongoose');
+const router = require('./router/index')
+const errorMiddleware = require('./middlewares/error-middleware');
+const methodOverride = require('method-override')
 
 app.use('/images', express.static('images'))
 
 app.get('/', (req, res) => {
     res.send("Hello world!")
 })
+app.use(express.json());
+app.use(methodOverride('_method'))
+app.use(cookieParser());
+app.use(cors({
+    credentials: true,
+    origin: process.env.CLIENT_URL || 'http://localhost:3000'
+}));
+app.use('/api', router);
+app.use(errorMiddleware);
 
 app.get('/anime', (req, res) => {
     let offset = +req.query.offset || 0
@@ -17,6 +33,11 @@ app.get('/anime', (req, res) => {
 
     if(req.query.search) {
         customized = customized.filter(e => e.name.toLowerCase().replace(/ /g, '').includes(req.query.search))
+    }
+    
+    if(req.query.searchById) {
+        const sSearchById = req.query.searchById.split(',').map(e => +e)
+        customized = sSearchById.map(e => customized.find(anime => anime.id === e)).reverse()
     }
 
     if(req.query.genres) {
@@ -71,7 +92,7 @@ app.get('/anime', (req, res) => {
     }
 
 
-    console.log(customized);
+    
 
     let animesSend = {
         ...animes, 
@@ -107,7 +128,7 @@ app.get('/anime/:selector', (req, res) => {
 })
 
 app.get('/genres', (reg, res) => {
-    res.send(genres)
+    res.send(allGenres)
 })
 
 allGenres.forEach(e => {
@@ -116,6 +137,18 @@ allGenres.forEach(e => {
     })
 })
 
-app.listen(port, () => {
-    console.log('Server started');
-})
+
+
+const start = async () => {
+    try {
+        await mongoose.connect(process.env.DB_URL || 'mongodb+srv://anireatsu:anireatsu123@cluster0.gfiskyo.mongodb.net/?retryWrites=true&w=majority', {
+            useNewUrlParser: true,
+            useUnifiedTopology: true
+        })
+        app.listen(PORT, () => console.log(`Server started on PORT = ${PORT}`))
+    } catch (e) {
+        console.log(e);
+    }
+}
+
+start()

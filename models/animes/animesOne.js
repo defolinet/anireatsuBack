@@ -1,5 +1,4 @@
-const imgCard = 'images/card/'
-const imgExtension = '.png'
+
 
 function getCard (name) {
     return `images/${name}/card.jpg`
