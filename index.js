@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const {animes, allAnime} = require('./models/animes/animes')
-const {genres, allGenres} = require('./models/genres')
+const { allGenres} = require('./models/genres')
 const app = express()
 const PORT = process.env.PORT || 3001;
 const cors = require('cors');
