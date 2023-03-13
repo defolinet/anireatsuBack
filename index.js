@@ -20,12 +20,12 @@ app.use(express.json());
 app.use(methodOverride('_method'))
 app.use(cookieParser());
 app.use(cors({
-    credentials: true,
-    origin: [
-        process.env.CLIENT_URL || 'http://localhost:3000', 
-        'https://deft-kleicha-afa401.netlify.app',
-        'https://defolinet.github.io/anireatsuFront'
-    ]
+    credentials: true
+    // origin: [
+    //     process.env.CLIENT_URL || 'http://localhost:3000', 
+    //     'https://deft-kleicha-afa401.netlify.app',
+    //     'https://defolinet.github.io/anireatsuFront'
+    // ]
 }));
 app.use('/api', router);
 app.use(errorMiddleware);
